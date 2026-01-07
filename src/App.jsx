@@ -314,11 +314,11 @@ const Hero = ({ onNavigate }) => {
             </span>
             <span className="text-sm font-medium text-[#02888f] tracking-wide uppercase">Batch Baru Mulai 15 Feb</span>
           </div>
-          <h1 className={`text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] font-sans mb-6 transition-all duration-700 delay-100 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+          <h1 className={`text-5xl md:text-7xl font-bold leading-[1.1] mb-6 transition-all duration-700 delay-100 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             Raih Masa Depanmu di <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#02888f] via-[#00aeb8] to-[#fdcd03] drop-shadow-sm">Digital Growth</span>
           </h1>
-          <p className={`text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed font-light max-w-2xl transition-all duration-700 delay-200 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+          <p className={`text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed max-w-2xl transition-all duration-700 delay-200 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             Akademi digital premier di Indonesia. Kami tidak hanya mengajarkan skill; kami membangun karir melalui mentorship ketat, proyek dunia nyata, dan jaringan kerja yang efektif.
           </p>
           <div className={`flex flex-col sm:flex-row gap-4 justify-center md:justify-start transition-all duration-700 delay-300 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
@@ -1062,7 +1062,7 @@ const App = () => {
   }
 
   return (
-    <div className="font-sans antialiased text-gray-900 bg-white selection:bg-[#02888f] selection:text-white">
+    <div className="antialiased text-gray-900 bg-white selection:bg-[#02888f] selection:text-white" style={{ fontFamily: '"Bell MT", "Bodoni MT", "Didot", "Times New Roman", serif' }}>
       <style>{`
         @keyframes float {
           0% { transform: translate(0px, 0px) scale(1); }
